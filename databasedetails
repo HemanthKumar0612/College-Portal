@@ -1,0 +1,40 @@
+Student Database:
+Table:
+    CREATE TABLE student(
+        userid BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+        username TINYTEXT,
+        password LONGTEXT,
+        name LONGTEXT,
+        regno MEDIUMINT,
+        course LONGTEXT,
+        gender TINYTEXT,
+        nationality TINYTEXT,
+        dob DATE,
+        aadhaar BIGINT,
+        emailid TINYTEXT,
+        year SMALLINT
+        
+    );
+
+     CREATE TABLE admin(
+            username TINYTEXT,
+            password LONGTEXT,
+            name LONGTEXT,
+            empid MEDIUMINT,
+            aadhaar BIGINT,
+            emailid TINYTEXT
+            
+     );   
+
+      CREATE TABLE marks(
+            regno TINYTEXT,
+            name LONGTEXT,
+            course LONGTEXT,
+            theory1 TINYINT,
+            theory2 TINYINT,
+            theory3 TINYINT,
+            lab1 TINYINT,
+            lab2 TINYINT,
+            openelective TINYINT
+            
+ ); 
